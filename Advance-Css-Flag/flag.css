@@ -1,0 +1,84 @@
+body {
+    background-color: plum;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255) ;
+}
+header .items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+header .items:hover {
+    color: black;
+    border-radius: 60px;
+    background-color:rgb(255, 255, 255);
+}
+nav .home {
+    border-radius: 35%;
+    background-color: green;
+}
+.home li {
+    list-style: none;
+    text-decoration: none;
+}
+.home a:hover {
+    list-style: none;
+    text-decoration: none;
+   /* text-decoration: rgb(231, 232,  237); */
+}
+.home .items {
+    width: 100%;
+    padding: 20px,0;
+    color: white;
+}
+.items .list {
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(95, 98, 197);
+    color: rgb(251, 251, 251);
+    font-size: 28px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.items {
+    color: white;
+}
+
+
+.home li {
+    list-style: none;
+}
+.home a:hover {
+    list-style: none;
+    text-decoration: none;
+    text-decoration: rgb(65, 76, 201);
+}
+.flag {
+   border-collapse: collapse;
+   margin: 23px auto;
+   width: 600px;
+   height: 315px;
+   border:none;
+} 
+.stars {
+    width: 27%;
+    background-image: url('stars.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stars {
+background-color: rgb(14, 14, 14);
+}
+.w-stripe {
+    background-color: rgb(249, 249, 249);
+    width: 40%
+}
+.r-stripe {
+    background-color: rgb(179, 25, 66);
+    width:40%;
+    border:none;
+}
